@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store/
+img/.DS_Store
+css/.DS_Store
+.DS_Store
+Icon
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+css/*.css
+Icon

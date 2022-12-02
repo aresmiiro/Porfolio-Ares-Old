@@ -1,0 +1,59 @@
+
+.about .container-about{
+    width: 100%;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns:50% 50%;
+    background-image: linear-gradient(-20deg, #fadef4 0%, #fbfcdb 100%); 
+    background-attachment: fixed; 
+  }
+
+  
+  
+  .img-about{
+    width:600px;
+    height: 600px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  
+  .span-about{
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: 0.5rem;
+  }
+  
+  .aboutme{
+    font-size: 1.2rem;
+    color: #343434;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+  
+  .contacto{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4rem;
+  }
+  .btn-2{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    background-color: var(--main-color-1);
+    color: #343434;
+    font-size: 1.5rem;
+  }
+
+  .about .heading-about{
+    color: var(--text-color);
+    font-size: 2rem;
+    font-family: "Abril Fatface", cursive;
+    font-weight: 400;
+    padding-left: 3rem;
+    align-items: center;
+    padding-top: 7rem;
+  }
+  
+  

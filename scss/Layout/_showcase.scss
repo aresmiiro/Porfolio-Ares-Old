@@ -1,0 +1,155 @@
+.showcase-area{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  flex-basis: 50% 60%;
+  
+}
+
+.showcase-area .container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 7rem;
+
+}
+
+.showcase-info{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.showcase-img{
+  width: 1600px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+
+
+
+.cta{
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.cta .btn{
+  margin-right: 1rem;
+}
+
+.btn{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 17px;
+  background-color: $main-color-1;
+  color: #343434;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+.btn:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.btn-cv{
+  background-color: transparent;
+  display: inline-block;
+  color: #343434;
+  font-size: 1.2rem;
+  border-bottom: 2px solid $main-color-1;
+}
+
+.btn.cv::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 400;
+  font-family:'Abril Fatface', cursive ;
+  color:#343434;
+  position: relative;
+  margin: 0.1rem 0 0.5rem 0;
+  z-index: -1;
+}
+
+h1::before, h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+h1::before {
+  background:#faf7f9;
+  animation:  type 2s steps(30) 1s forwards;
+  width: 100%;
+}
+.span-1{
+ 
+  font-size:2rem;
+}
+
+h1::after {
+  opacity: 1;
+  width: 2px; 
+  background: #fff;
+  color:#29262B;
+  animation:  type 2s steps(30) 1s forwards,
+              blink 0.6s steps(9) ;
+}
+
+
+@keyframes type {
+  to {
+    left: 110%;
+  }
+}
+
+@keyframes blink {
+  0% , 50%{
+    opacity: 0;
+  } 
+  51%, 100% {
+     opacity: 1;
+  }
+}
+
+.heading{
+  color: $main-color-2;
+  font-size: 3rem;
+  font-family: 'Abril Fatface', cursive ;
+  font-weight: 400;
+  padding: 0rem 0 0 0x;
+  margin-bottom: 0.1rem;
+}
+.sub-heading{
+  color: #343434;
+  font-size: 1rem;
+  font-family: 'Abril Fatface', cursive ;
+  padding: 0rem 0.1rem ;
+  margin-bottom: 1rem;
+}
+.text{
+  color: #343434;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  margin:0.5rem 0;
+  font-weight: 400;
+  padding-left: 0rem;
+}
+
+
+
+

@@ -1,0 +1,82 @@
+.container-port{
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height:auto;
+  padding: 5rem 1rem 5rem 5rem;
+  background-image: linear-gradient(-20deg, #fadef4  0%, #fbfcdb 100%);  
+  background-attachment: fixed;
+}
+.heading-port{
+
+  color:var(--text-color);
+  font-size: 2rem;
+  font-family: 'Abril Fatface', cursive ;
+  font-weight: 400;
+  padding-left: 3rem;
+  align-items: center;
+  padding-top: 5rem;
+}
+.heading-2{
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 0rem;
+}
+
+.portfolio-gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+}
+.prt-image img{
+  width: 105%;
+}
+.prt-image{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cards-port{
+  border-radius: 15px;
+  overflow: hidden;
+  background-color:#faf7f9;
+  height: 265px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  
+}
+.cards-port:hover{
+  border: solid 2px #fec601;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+
+.btn-port{
+  background-color: transparent;
+  color:#343434;
+  font-size: 1.3rem;
+  border-bottom: 2px solid var(--main-color-1);
+}
+
+.card-down{
+  font-family: 'Abril Fatface';
+  padding: 1.3rem 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.card-down h3{
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
